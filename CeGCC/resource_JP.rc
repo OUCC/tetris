@@ -1,0 +1,40 @@
+#include <windows.h>
+#pragma code_page(65001)
+
+//
+// Version Information
+//
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1, 0, 0, 0
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       0
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "041104b0"
+        {
+            VALUE "Comments",         "SHARP Brain で動作するテトリスです。\0"
+            VALUE "FileDescription",  "Tetris\0"
+            VALUE "FileVersion",      "1.0\0"
+            VALUE "InternalName",     "Tetris\0"
+            VALUE "LegalCopyright",   "Copyright © 2021 Yuri213212, watamario15. このソフトウェアは CC BY-NC-SA 4.0 でライセンスされています。\0"
+            VALUE "ProductName",      "Tetris on SHARP Brain\0"
+            VALUE "ProductVersion",   "1.0\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x411, 1200
+    }
+}
+
+Res_Menu MENU
+{
+    MENUITEM "リセット", 0x8001
+    MENUITEM "スタート", 0x8002
+    MENUITEM "一時停止", 0x8003
+    MENUITEM "ヘルプ", 0x8004
+}

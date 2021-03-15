@@ -1,0 +1,39 @@
+#include <windows.h>
+
+//
+// Version Information
+//
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1, 0, 0, 0
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       0
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "080404b0"
+        {
+            VALUE "Comments",         "Tetris on SHARP Brain.\0"
+            VALUE "FileDescription",  "Tetris\0"
+            VALUE "FileVersion",      "1.0\0"
+            VALUE "InternalName",     "Tetris\0"
+            VALUE "LegalCopyright",   "Copyright (C) 2021 Yuri213212, watamario15. 对于所有文件遵循CC BY-NC-SA 4.0。\0"
+            VALUE "ProductName",      "Tetris on SHARP Brain\0"
+            VALUE "ProductVersion",   "1.0\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x804, 1200
+    }
+}
+
+Res_Menu MENU
+{
+    MENUITEM "重苼E, 0x8001
+    MENUITEM "开始", 0x8002
+    MENUITEM "暂停", 0x8003
+    MENUITEM "皝E丒, 0x8004
+}

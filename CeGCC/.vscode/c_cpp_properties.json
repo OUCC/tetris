@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "CeGCC",
+            "includePath": [
+                "/usr/lib/gcc/arm-mingw32ce/9.3.0/../../../../arm-mingw32ce/include/c++/9.3.0",
+                "/usr/lib/gcc/arm-mingw32ce/9.3.0/../../../../arm-mingw32ce/include/c++/9.3.0/arm-mingw32ce",
+                "/usr/lib/gcc/arm-mingw32ce/9.3.0/../../../../arm-mingw32ce/include/c++/9.3.0/backward",
+                "/usr/lib/gcc/arm-mingw32ce/9.3.0/include",
+                "/usr/lib/gcc/arm-mingw32ce/9.3.0/include-fixed",
+                "/usr/lib/gcc/arm-mingw32ce/9.3.0/../../../../arm-mingw32ce/include"
+            ],
+            "compilerPath": "/usr/bin/arm-mingw32ce-gcc",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
